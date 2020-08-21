@@ -38,13 +38,13 @@ body {
     width: 255px;
     margin: auto;
     margin-top: 250px;
-
-    .video {
+}
+.video {
     margin: calc(50% - 10%);
     margin-top: 20px;
     /* margin-right: calc(100% - 50%) */
 }
-}
+
 
 button {
     cursor: pointer;
