@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture in Picture</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=repl.it">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <div class= "title">
+            <h1>Picture in Picture visualiser</h1>
+        </div>
+        <div class = "instructions">
+            <h2>1. Click "Select" and choose the window you want to stream
+                <h5> (you can select between entire screens, applications or even browser tabs).</h5> 
+            </h2>
+            <h2>2. Click "Start" to begin the Picture in Picture stream.
+                <h5> (you can resize and move the window anywhere on the screen)</h5> 
+            </h2>
+            <h2>3. Enjoy! </h2>
+
+        </div>
+        <!-- Button-->
+        <div class="button-container">
+            <button id="button1"> Select </button>
+            <button id="button2"> Start </button>
+        </div>
+        <div class = "video">
+         <!-- Video-->
+        <video id="video" controls height="150" width="300" hidden></video>
+        </div>
+        <!-- Script -->
+        <script src="script.js"> </script>
+
+    </div>
+</body>
+</html>
