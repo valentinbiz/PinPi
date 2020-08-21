@@ -39,6 +39,11 @@ body {
     margin: auto;
     margin-top: 250px;
 
+    .video {
+    margin: calc(50% - 10%);
+    margin-top: 20px;
+    /* margin-right: calc(100% - 50%) */
+}
 }
 
 button {
